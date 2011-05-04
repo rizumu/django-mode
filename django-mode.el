@@ -21,8 +21,6 @@
 
 ;;; Code:
 
-(require 'python-mode)
-
 (setq django-template-regexp ".*\\(@render_to\\|render_to_response\\|TemplateResponse\\)(['\"]\\([^'\"]*\\)['\"].*
 ?"
       django-view-regexp ".*(.+, ?['\"]\\([^'\",]+\\)['\"].*).*
